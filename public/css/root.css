@@ -1,0 +1,14 @@
+/* リセット */
+@import url("./reset.css");
+
+/* 共通設定 */
+@import url("./common.css");
+
+/* ログイン */
+@import url("./login.css");
+
+/* メニュー */
+@import url("./menu.css");
+
+/* ボディ */
+@import url("./body.css");

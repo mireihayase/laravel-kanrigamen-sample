@@ -1,0 +1,564 @@
+/* ボディ上位エリア */
+.body-area {
+    width: 100%;
+    height: 100%;
+    color: var(--color-2);
+}
+
+
+.body-ah {
+    height: 56px;
+    display: flex;
+    width: 100%;
+    background-color: var(--color-3);
+    border-bottom: 0.5px solid var(--color-2);
+    color: var(--color-2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 12px;
+}
+
+.body-as {
+    width: 100%;
+    /* transform: rotateX(180deg); */
+}
+
+.body-as1 {
+    display: flex;
+    position: sticky;
+    top: 56px;
+    height: 16px;
+    width: 100%;
+    background-color: var(--color-3);
+    z-index: 100;
+}
+
+.body-as2 {
+    display: flex;
+    position: sticky;
+    bottom: 52px;
+    height: 16px;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--color-3);
+}
+
+.body-ab {
+    height: calc(100vh-135px);
+    height: auto;
+    width: 100%;
+    top: 56px;
+    /* transform: rotateX(180deg); */
+}
+
+.body-af {
+    width: 100%;
+    height: 52px;
+    padding: 8px 12px;
+    display: flex;
+    background-color: var(--color-3);
+    margin-top: auto;
+    color: var(--color-2);
+    position: sticky;
+    bottom: 0;
+    border-top: 0.5px solid var(--color-2);
+    z-index: 100;
+    width: 100%;
+}
+
+/* ボディ内ヘッダフッターエリア */
+.body-ahl,
+.body-afl {
+    width: 30%;
+    text-align: start;
+    display: inline-block;
+}
+
+.body-ahc::-webkit-scrollbar,
+.body-afc::-webkit-scrollbar {
+    display: none;
+}
+
+.body-ahc,
+.body-afc {
+    width: 40%;
+    text-align: center;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.body-ahr,
+.body-afr {
+    width: 30%;
+    text-align: end;
+}
+
+/* ボディヘッダセンターエリア */
+.body-ahc {
+    padding-top: 16px;
+}
+
+
+/* ボディ内ボディエリア */
+
+.body-at1 {
+    margin-bottom: 16px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-1);
+}
+
+.body-at2 {
+    transform: rotateX(180deg);
+}
+
+.inner {
+    height: 1px;
+    width: 600px;
+}
+
+
+.body-at3 {
+    height: auto;
+    overflow-x: auto;
+    padding: 0 24px;
+}
+
+.body-at1 {
+    padding-bottom: 16px;
+
+}
+
+.body-ad {
+    height: 100%;
+}
+
+.body-al::-webkit-scrollbar {
+    /* display: none; */
+}
+
+.body-al {
+    overflow-x: scroll;
+    /* position: relative; */
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+    transform: rotateX(180deg);
+}
+
+.body-al::-webkit-scrollbar {
+    height: 16px;
+    background-color: var(--color-6);
+}
+
+.body-al::-webkit-scrollbar-thumb {
+    background-color: var(--color-2);
+    cursor: pointer;
+}
+
+/* ボディヘッダ内コンテンツ */
+.body-ahl {
+    line-height: 56px;
+}
+
+.body-ahr {
+    padding: 8px;
+}
+
+.body-ahr>button {
+    /* position: relative; */
+    background-color: var(--color-1);
+    border-radius: 12px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-);
+    font-size: 24px;
+    padding: 8px;
+    margin-left: 8px;
+    border: none;
+    top: 8px;
+}
+
+
+/* ボディヘッダフッター内コンテンツ */
+
+.body-ahc>label>select {
+    height: auto;
+    width: auto;
+}
+
+
+.body-ahc>button,
+.body-afc>button,
+.body-afc>li,
+/*.body-afl>button,*/
+.body-afl>button a,
+/*.body-afr>button,*/
+.body-afr>button a,
+.body-afl>label>select {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border: none;
+    border-radius: var(--border-radius-2);
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.body-afl>button,
+.body-afr>button{
+    padding: 8px 0 0 0;
+    border: 0;
+    border-radius: var(--border-radius-2);
+}
+.body-afl>label>select {
+    border-radius: var(--border-radius-2);
+    padding: 8px 12px;
+    cursor: pointer;
+    appearance: auto;
+}
+
+.table1-fa>button {
+    padding: 8px 24px;
+    border: 2px- solid var(--color-2);
+    background-color: var(--color-2);
+    color: var(--color-3);
+    border-radius: var(--border-radius-2);
+    font-size: medium;
+}
+
+.body-ahr>button:hover,
+.body-ahc>button:hover,
+.body-afc>button:hover,
+/*.body-afl>button:hover,*/
+.body-afl>button a:hover,
+/*.body-afr>button:hover,*/
+.body-afr>button a:hover,
+.body-afl>label>select:hover,
+.table1-fa>button:hover {
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+.table2-b1:hover,
+.table2-b2:hover {
+    background-color: var(--color-2);
+    color: var(--color-1);
+}
+
+.buttun123 {
+    background-color: var(--color-3) !important;
+    color: var(--color-2) !important;
+    text-align: center;
+}
+.buttun1234 {
+    color: var(--color-2);
+    border: none;
+    border-radius: var(--border-radius-2);
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: var(--color-3) !important;
+    color: var(--color-2) !important;
+    text-align: center;
+}
+
+/* table */
+table,
+td,
+th {
+    border: 0.5px solid var(--color-5);
+    border-collapse: collapse;
+    line-height: 28px;
+}
+
+th {
+    text-align: center;
+    font-size: 16px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+td {
+    font-size: 14px;
+}
+
+/* table1 */
+#table1 {
+    width: 100%;
+    border: none !important;
+    border-bottom: 0.5px solid var(--color-5);
+}
+
+#table1 td,
+#table1 th {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    line-height: 28px;
+    height: 48px;
+}
+
+.table1-a1 {
+    width: 12%;
+    text-align: center;
+}
+
+.table1-a2 {
+    width: 38%;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.table1-fa {
+    padding-top: 16px;
+    text-align: center;
+}
+
+/* table2 */
+#table2 {
+    cursor: pointer;
+    background-color: var(--color-3);
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+.table2-h {
+    background-color: var(--color-2);
+    color: var(--color-3);
+    line-height: 32px;
+    height: 32px;
+}
+
+#table2>tr:hover {
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+#table2 td {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.table2-a0 {
+    width: 48px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.center {
+    text-align: center;
+}
+
+.table2-a1 {
+    width: 64px;
+    /* overflow-wrap: break-word;
+    word-wrap: break-word; */
+    overflow: hidden;
+}
+
+.table2-a2 {
+    width: 140px;
+}
+
+.table2-a3 {
+    width: 180px;
+}
+
+.table2-a4 {
+    width: 200px;
+}
+
+.table2-a5 {
+    width: 260px;
+}
+
+.table2-a6 {
+    width: 320px;
+}
+
+.table2-ab {
+    width: 88px;
+}
+
+.table2-b1 {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-2);
+    color: var(--color-3);
+    margin-left: 12px;
+    margin-right: 12px;
+    position: relative;
+    top: 3px;
+}
+
+.table2-b2 {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border: none;
+    border-radius: var(--border-radius-2);
+    padding: 0px 16px;
+    font-size: 14px;
+    margin: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.padding {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* table3 */
+#table3 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+}
+
+#table3>tbody>tr>th,
+#table3>tbody>tr>td {
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#table3>tbody>tr>th {
+    width: 180px !important;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    text-align: center;
+}
+
+/* @media screen and (max-width: 420px) {
+
+    #table3>tbody>tr>th,
+    #table3>tbody>tr>td {
+        display: block;
+    }
+
+    #table3>tbody>tr>th {
+        width: auto;
+    }
+} */
+
+#table3 td {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ruby-td {
+    padding-top: 12px !important;
+    text-align: left;
+}
+
+#table3 th,
+#table3 td {
+    line-height: 32px;
+}
+
+
+#table3 th {
+    font-size: small;
+}
+
+
+.body-title {
+    font-size: 20px;
+    text-align: left;
+}
+
+#table1 input[type="text"],
+#table3 input[type="text"],
+#table3 input[type="password"],
+#table3 input[type="date"] {
+    border: 2px solid #00000020;
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /* background-color: var(--color-3); */
+
+}
+
+#table1 input[type="date"] {
+    width: 30%;
+    border: none;
+    height: 32px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    background-color: var(--color-3);
+}
+
+#table1 input[type="time"] {
+    width: 13%;
+    border: none;
+    height: 32px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    background-color: var(--color-1);
+}
+
+#table1 label,
+#table3 label {
+    cursor: pointer;
+}
+
+.body-afl>h4 {
+    line-height: 20px;
+}
+
+#table1 label,
+#table3 label {
+    display: inline-block;
+    border: 2px solid var(--color-8);
+    margin: 4px 4px 4px 0px;
+    height: 36px;
+    line-height: 28px;
+    padding: 4px 12px;
+    font-size: 14px;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+#label-ra {
+    border-radius: 32px;
+}
+
+#label-ch {
+    border-radius: 4px;
+}
+
+#table1 input[type="radio"],
+#table1 input[type="checkbox"],
+#table3 input[type="radio"] {
+    display: none;
+}
+
+#table1 label:hover,
+#table3 label:hover,
+#table1 input[type="checkbox"]:checked+label,
+#table1 input[type="radio"]:checked+label,
+#table3 input[type="radio"]:checked+label {
+    background-color: var(--color-7);
+    color: var(--color-2);
+    border: 2px solid var(--color-6);
+}

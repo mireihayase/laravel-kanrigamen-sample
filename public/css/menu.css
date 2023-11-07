@@ -1,0 +1,94 @@
+/* メニュー上位エリア */
+.menu-area {
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 144px 1fr 50px;
+    grid-template-areas:
+        "menu-ah"
+        "menu-ab"
+        "menu-af";
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.menu-ah {
+    grid-area: menu-ah;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+
+.menu-ab {
+    grid-area: menu-ab;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-af {
+    grid-area: menu-af;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* メニュー下位エリア */
+
+.menu-logo {
+    height: 72px;
+    width: auto;
+}
+
+.menu-ab>button,
+.menu-af>button {
+    background-color: var(--color-1);
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none !important;
+    color: var(--color-2);
+}
+
+.menu-af>button {
+    margin-top: auto;
+}
+
+
+.menu-ab>button:hover,
+.menu-af>button:hover {
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
+.menu-buttun {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 48px;
+    line-height: 1;
+    padding: 0 16px;
+    border: 2px solid var(--color-8);
+}
+
+#menu-chk {
+    background-color: var(--color-3);
+    /* color: var(--color-1); */
+    border: 2px solid var(--color-2);
+}
+
+.menu-i {
+    position: relative;
+    font-size: 24px;
+    transition: 0.25;
+}
+
+.menu-l {
+    font-size: 18px;
+    white-space: nowrap;
+}

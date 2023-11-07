@@ -1,0 +1,76 @@
+/* 共通変数 */
+:root {
+    /* カラー */
+    --color-1: #F1F3F5;
+    --color-2: #00214D;
+    --color-3: #fffffe;
+    --color-4: #ff8282;
+    --color-5: #B3BDCA;
+    --color-6: #00214d40;
+    --color-7: #00214d10;
+    --color-8: #00214d00;
+
+    --color-99: #f4f4f4;
+    --font-color-1: #000000;
+
+    /* フォントサイズ */
+    --font-size-1: 28px;
+
+    /* ラディウス */
+    --border-radius-1: 16px;
+    --border-radius-2: 8px;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* 最上位エリア */
+.area {
+    display: flex;
+    /* width: 100vw; */
+    overflow-y: scroll;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+    /* height: 100vh; */
+}
+
+.menu-area {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 228px;
+    background-color: var(--color-1);
+    z-index: 10000;
+}
+
+.body-area {
+    /* height: 100vh; */
+    width: 100%;
+    max-width: calc(100vw - 228px);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+}
